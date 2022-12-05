@@ -180,16 +180,16 @@ public AddCustomer addNewCustPg;
 
     @When("User enter customer info")
     public void user_enter_customer_info() {
-        addNewCustPg.enterEmail("cs129@gmail.com");
-        //addNewCustPg.enterEmail(generateEmailId() + "@gmail.com");
+        addNewCustPg.enterEmail("ABC@gmail.com");
+      
         addNewCustPg.enterPassword("test1");
-        addNewCustPg.enterFirstName("Prachi");
-        addNewCustPg.enterLastName("Gupta");
-        addNewCustPg.enterGender("Female");
+        addNewCustPg.enterFirstName("Rahul");
+        addNewCustPg.enterLastName("Roy");
+        addNewCustPg.enterGender("Male");
         addNewCustPg.enterDob("6/13/1988");
-        addNewCustPg.enterCompanyName("CodeStudio");
-        addNewCustPg.enterAdminContent("Admin content");
-        addNewCustPg.enterManagerOfVendor("Vendor 1");
+        addNewCustPg.enterCompanyName("Microsoft");
+        addNewCustPg.enterAdminContent("Software Developer");
+        addNewCustPg.enterManagerOfVendor("Vendor 2");
 
        // log.info("customer information entered");
 
