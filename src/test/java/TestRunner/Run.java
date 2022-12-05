@@ -6,9 +6,9 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = ".//Features/Loginfeature.feature",
+        features = ".//Features/",
         glue = "Stepdefinition",
-        dryRun = true,
+        dryRun = false,
         monochrome = false,
         plugin = {"pretty","html:target/cucumber-reports/reports1.html"}
 )

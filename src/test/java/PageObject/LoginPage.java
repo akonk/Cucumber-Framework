@@ -8,12 +8,12 @@ import org.openqa.selenium.Keys;
 
 
 public class LoginPage {
-    WebDriver ldriver;
+   public static WebDriver driver;
 
-    public LoginPage(WebDriver rdriver){
+    public LoginPage(WebDriver driver){
 
-        ldriver = rdriver;
-        PageFactory.initElements(rdriver,this);
+        LoginPage.driver = driver;
+        PageFactory.initElements(driver,this);
 
     }
 
